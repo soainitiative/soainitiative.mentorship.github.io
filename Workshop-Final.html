@@ -1,0 +1,167 @@
+</body>
+</html> 
+    <title>Page Title</title>
+    <style>
+        hr {
+            border: none; /* Remove the default border */
+            height: 35px; /* Set the thickness */
+            background-color: #0d1e40; /* Set the color */
+            margin: 20px 0; /* Add space around the line */
+        }
+
+        ul {
+            color: #0d1e40;
+            text-align: left; /* Align the text to the left */
+            font-size: 18px;
+            margin-left: 20px; /* Add some left margin for proper indentation */
+            list-style-type: none; /* Remove the bullet points */
+            padding-left: 0; /* Remove default padding */
+        }
+
+        li {
+            margin-bottom: 10px; /* Add some space between list items */
+        }
+
+        /* Styling for the form and inputs */
+        form {
+            font-family: Arial, sans-serif; /* Set font for form */
+            text-align: center; /* Center the form content */
+            margin: 20px;
+        }
+
+        /* Styling for labels and text */
+        form label {
+            color: #0d1e40; /* Change font color */
+            font-size: 18px; /* Set font size */
+            display: block; /* Display label as block to stack vertically */
+            margin-bottom: 8px; /* Add space below label */
+        }
+
+        /* Styling for input fields */
+        input[type="text"] {
+            padding: 8px;
+            margin: 10px 0;
+            font-size: 16px; /* Font size for input text */
+            width: 80%; /* Make input fields a bit smaller */
+            max-width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /* Styling for submit button */
+        input[type="submit"] {
+            background-color: #0d1e40;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #3a4d6b; /* Darker shade on hover */
+        }
+
+        /* Horizontal layout for radio buttons */
+        .radio-group {
+            text-align: center; /* Ensure radio buttons are centered */
+        }
+
+        .radio-group input {
+            margin-right: 10px; /* Space between radio buttons */
+            margin-bottom: 0; /* Remove bottom margin */
+        }
+
+        .radio-group label {
+            display: inline-block; /* Display labels inline */
+            margin-right: 20px; /* Space between the label and radio button */
+        }
+    </style>
+</head>
+<body>
+
+    <h1></h1>
+    <h1 style="color:#0d1e40;text-align:center;font-size: 25px;">S.O.A Initiative</h1>
+    <h1 style="color:#0d1e40;text-align:center;font-size: 25px;">Workshop Sign-Up Form</h1>
+    <hr> <!-- Horizontal line under the "Requirements and Eligibility" heading -->
+
+    <!-- Form for collecting user details -->
+    <form action="https://formspree.io/f/mwpvkovd" method="POST">
+        <label for="name">Full Name (Required field):</label>
+        <input type="text" name="name" id="name" required><br>
+
+        <label for="email">Email Address (Required field):</label>
+        <input type="text" name="email" id="email" required><br>
+
+        <label for="email2">Phone Number (Optional):</label>
+        <input type="text" name="email2" id="email2"><br>
+
+        <label for="email3">Occupation (Required field):</label>
+        <input type="text" name="email3" id="email3"><br>
+
+        <label for="email3">Current Employer/Institution (Required field):</label>
+        <input type="text" name="email3" id="email3"><br>
+
+        <label for="email3">Years of Experience in Healthcare (Required field):</label>
+        <input type="text" name="email3" id="email3"><br>
+
+        <!-- Do you want to attend the workshop? -->
+        <label for="yesno">You must be interested in leading workshops or career exploration sessions for students Do you agree to this ?</label><br>
+        <div class="radio-group">
+            <input type="radio" id="yes" name="attend" value="yes" required>
+            <label for="yes">Yes</label>
+
+            <input type="radio" id="no" name="attend" value="no">
+            <label for="no">No</label>
+        </div>
+
+        <label for="email3">Please describe the topics you would be able to cover in workshops (e.g., healthcare career paths, healthcare trends, resume building, etc.):</label>
+        <input type="text" name="email3" id="email3"><br>
+
+        <label for="email3">How many workshops would you be able to commit to per every 3 months?(Please commit to at least three):</label>
+        <input type="text" name="email3" id="email3"><br>
+
+        <label for="email3">Preferred Mode of Mentorship (Virtual, In-person, or Both):</label>
+        <input type="text" name="email3" id="email3"><br>
+
+        <!-- Do you want to attend the workshop? -->
+        <label for="yesno">You must be willing to create presentation materials (e.g., PowerPoint) for your workshops and any related activity designed for the mentee  Do you agree to this?</label><br>
+        <div class="radio-group">
+            <input type="radio" id="yes" name="attend" value="yes" required>
+            <label for="yes">Yes</label>
+
+            <input type="radio" id="no" name="attend" value="no">
+            <label for="no">No</label>
+        </div>
+
+        <!-- Do you want to attend the workshop? -->
+        <label for="yesno">Do you have any experience designing educational content or presentations?</label><br>
+        <div class="radio-group">
+            <input type="radio" id="yes" name="attend" value="yes" required>
+            <label for="yes">Yes</label>
+
+            <input type="radio" id="no" name="attend" value="no">
+            <label for="no">No</label>
+        </div>
+
+        
+
+        <form action="https://formspree.io/f/mwpvkovd" method="POST">
+            <label for="name">Please share any other relevant experience or qualifications:</label>
+            <input type="text" name="name" id="name" required><br>
+        
+            
+            <!-- Other form fields go here -->
+        
+            <!-- File input for resume attachment -->
+            <label for="resume">Attach Your Resume (Optional):</label>
+            <input type="file" name="resume" id="resume"><br>
+        
+            <input type="submit" value="Submit">
+        </form>
+        
+
+</body>
+</html>
+
